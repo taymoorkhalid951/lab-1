@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding:0;
+}
+
+.container {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-3, .col-4, .col-6{
+    box-sizing: border-box;
+    
+    height: 100px;
+}
+
+.col-3 {
+    width: 25%; /* 3/12 */
+    background-color: aqua;
+}
+
+.col-4 {
+    width: 33.33333333%; /* 4/12 */
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+
+
+.col-6 {
+    width: 50%; /* 6/12 */
+    background-color: blueviolet;
+    border: 1px solid white;
+}
+
+
