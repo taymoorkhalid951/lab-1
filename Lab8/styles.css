@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+#buttonContainer {
+    text-align: center; /* Center the button horizontally */
+    margin-bottom: 10px;
+}
+
+#showFormBtn{
+    font-family: Courier New;
+    font-size: 20px;
+    background-color: #252222;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 3px 7px rgb(118 17 10);
+    color: white;
+    backdrop-filter: blur(3px);
+}
+
+#recipeForm{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 50px auto 20px;
+    backdrop-filter: brightness(0.9);
+}
+
+#recipeForm input {
+    width: 278px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#recipeForm textarea {
+    width: 278px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#recipeImage{
+    background-color: #ccc;
+}
+
+#recipeList {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.recipe {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    backdrop-filter: brightness(0.4);
+    margin-right: 10px;
+    width:22%;
+}
+
+.recipe h3,p {
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-shadow: 3px 3px 7px rgb(118 17 10);
+    color: white;
+    font-size: 1.5rem; 
+}
+
+.ingredients {
+    font-size: 1rem;
+    word-wrap: break-word; 
+    overflow: hidden; 
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+    display:block;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    backdrop-filter: blur(3px);
+    color: white;
+    text-shadow: 3px 3px 7px rgb(118 17 10);
+    text-align: center;
+    padding: 8px 0;
+}

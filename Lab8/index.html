@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Recipe Management System</h1>
+    <div id="buttonContainer">
+        <button id="showFormBtn"><b>Add New Recipe</b></button>
+    </div>
+    <form id="recipeForm" style="display: none;">
+        <input type="text" id="recipeName" placeholder="Recipe Name" required>
+        <textarea id="recipeIngredients" placeholder="Ingredients" required></textarea>
+        <input type="file" id="recipeImage" accept="image/*">
+        <button type="submit">Add Recipe</button>
+    </form>
+    <div id="recipeList" >
+    
+    </div>
+    <footer><em><b>&copy; Taymoor Khalid 2024</b></em></footer>
+    <script src="script.js"></script>
+</body>
+</html>
